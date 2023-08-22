@@ -6,8 +6,10 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
+	int _atoi(char *s);
 	int nb;
 
 	nb = _atoi("98");
