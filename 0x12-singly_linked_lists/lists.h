@@ -2,7 +2,7 @@
 #define _LISTS_H
 
 #include <stddef.h>
-#include <strin.h>
+#include <string.h>
 #include <stdio.h>
 
 /**
@@ -12,7 +12,6 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
  */
 typedef struct list_s
 {
